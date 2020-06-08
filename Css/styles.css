@@ -97,9 +97,7 @@ button:hover {
     color: white;
 }
 
-/*
-after this marking are the settings for the the when the page is visiblie on a screen larger than 768 px
-*/
+
 
 @media screen and (min-width: 768px) {
 

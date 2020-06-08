@@ -1,0 +1,173 @@
+.grey_head_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:#F2F2F2;
+}
+
+.white_under_box {
+    padding-top: 20%;
+    padding-bottom: 56.25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button1 {
+    background-color:#20a8b4 ;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px;
+    padding: 12px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+}
+
+.button2 {
+    background-color:#20a8b4 ;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px 30px 10px;
+    padding: 12px;
+    border-radius: 10px;
+    font-family: 'Roboto';
+}
+
+.codePicture {
+    display: none;
+}
+
+    h1 {
+    font-family: 'Roboto';
+    color:black;
+    margin: auto 10px;
+    border: 0px;
+    padding: 0px;
+}
+
+h4 {
+    font-family: 'Roboto';
+    font-size: 5vw;
+    margin: 10px 10px;
+    margin-left: 4px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-size: 3.5vw;
+    margin: 0px 10px 10px 10px;
+    margin-left: 4px;
+}
+
+#learnTo {
+    color: #20a8b4;
+}
+
+#orangeText {
+    color:#ff5c0f;
+}
+
+#menu {
+    list-style-type: none;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-left: -30px;
+}
+
+#menu li {
+    padding: 5px;
+}
+
+#menu li:hover {
+    color: #ff5c0f;
+}
+
+button:hover {
+    background-color:#ff5c0f;
+    color: white;
+}
+
+/*
+after this marking are the settings for the the when the page is visiblie on a screen larger than 768 px
+*/
+
+@media screen and (min-width: 768px) {
+
+   .grey_head_box {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
+
+   .master_container {
+       padding-top: 50px;
+       display: flex;
+       flex-direction: row;
+   }
+
+   .white_under_box {
+       padding-top: 50px;
+       padding-bottom: 50px;
+       align-items: left;
+   }
+
+   .button1 {
+    float: right;
+    margin-left: 0px;
+    }
+
+    .button2 {
+       width: 25%; 
+    }
+    
+    .codePicture {
+        display:flex;
+        width: 50%;
+        justify-content: right;
+        margin-left: 100px;
+    }
+
+    h1 {
+        float: left;
+        padding-right: 15%;
+        margin: auto 10px;
+    }
+
+    h4 {
+        font-size: 2vw;
+        margin: 10px 10px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    
+    p {
+        font-size: 2vw;
+        margin: 0px 10px 10px 10px;
+        margin-left: 10px;
+    }
+
+    #menu {
+        float: right;
+        margin: auto;
+        margin-right: 0px;
+        text-align: right;
+        font-size: 1vw;
+    }
+
+    #menu li {
+        display: block;
+        float: left;
+        padding: 0 20px;
+    }
+
+}
